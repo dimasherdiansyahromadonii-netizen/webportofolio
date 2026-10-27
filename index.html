@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dimas Herdiansyah Romadoni | Portofolio</title>
+  <meta name="description" content="Portofolio pribadi Dimas Herdiansyah Romadoni: proyek, keahlian, dan kontak.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#tentang">Lompat ke konten</a>
+
+  <!-- ===== MENU DI ATAS ===== -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="logo" href="#tentang">Dimas Herdiansyah Romadoni</a>
+      <nav aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#keahlian">Keahlian</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+          <li><a href="#tugas">Tugas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Tiap <section> adalah satu "halaman". Yang tampil hanya yang diklik di menu. -->
+  <main>
+
+    <!-- ===== TENTANG: foto besar di kiri, cerita di kanan ===== -->
+    <section id="tentang" class="halaman tentang">
+      <img class="foto" src="/asset/foto.jpg" alt="Foto Dimas Herdiansyah Romadoni">
+
+      <div class="tentang-teks">
+        <h1>Dimas Herdiansyah Romadoni</h1>
+        <p class="lead">
+          Mahasiswa Teknik Informatika di Universitas Muhammadiyah Cirebon yang
+          suka membangun hal-hal kecil di web.
+        </p>
+        <p>
+          Ceritakan di sini hal yang membuat kamu berbeda: apa yang sedang kamu pelajari,
+          jenis proyek yang kamu suka, dan apa yang kamu cari sekarang (magang, kolaborasi,
+          atau proyek freelance). Tulis 2 sampai 3 kalimat saja, singkat dan jujur.
+        </p>
+
+        <dl class="fakta">
+          <div><dt>Kampus</dt><dd>Universitas Muhammadiyah Cirebon</dd></div>
+          <div><dt>Jurusan</dt><dd>Teknik Informatika</dd></div>
+          <div><dt>Sedang dipelajari</dt><dd>Pengembangan web dan analisis algoritma</dd></div>
+        </dl>
+
+        <p class="aksi">
+          <a class="tombol" href="#proyek">Lihat proyek</a>
+          <a class="tombol tombol-kosong" href="#kontak">Hubungi saya</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== PROYEK: kartu tiga kolom ===== -->
+    <section id="proyek" class="halaman">
+      <h2>Proyek</h2>
+      <p class="pengantar">Beberapa karya yang pernah saya buat.</p>
+
+      <div class="grid-proyek">
+        <article class="kartu">
+          <h3>Nama Proyek Pertama</h3>
+          <p>Jelaskan dalam satu atau dua kalimat apa yang proyek ini selesaikan dan peran kamu di dalamnya.</p>
+          <p class="teknologi">HTML, CSS, JavaScript</p>
+          <p class="tautan"><a href="#">Lihat demo</a> <a href="#">Lihat kode</a></p>
+        </article>
+
+        <article class="kartu">
+          <h3>Bot Telegram</h3>
+          <p>Bot yang membalas pesan otomatis, dibuat dengan Python.</p>
+          <p class="teknologi">Python, Telegram Bot API</p>
+          <p class="tautan"><a href="#">Lihat kode</a></p>
+        </article>
+
+        <article class="kartu">
+          <h3>Nama Proyek Ketiga</h3>
+          <p>Bisa juga tugas kuliah yang menarik, misalnya visualisasi algoritma pengurutan.</p>
+          <p class="teknologi">JavaScript, Canvas</p>
+          <p class="tautan"><a href="#">Lihat demo</a></p>
+        </article>
+      </div>
+    </section>
+
+<!-- ===== TUGAS: daftar + formulir pengumpulan ===== -->
+<section id="tugas" class="halaman">
+  <h2>Tugas</h2>
+  <p class="pengantar">Tugas kuliah dan status pengerjaannya.</p>
+
+    <li class="tugas">
+      <div>
+        <h3>Web Portofolio Analisis & Design PL</h3>
+        <p class="matkul">ANALISIS & DESIGN PL</p>
+      </div>
+      <p class="tenggat">Tenggat: 29 Oct 2026</p>
+      <span class="status status-proses">Dikerjakan</span>
+      <a href="#">Buka file</a>
+    </li>
+
+  <h3 class="judul-form">Kumpulkan tugas</h3>
+  <p class="aksi">
+  <a class="tombol" href="https://forms.gle/mnE2DgDnZZFLr9Lf9" target="_blank" rel="noopener">Kumpulkan tugas</a>
+</p>
+<p class="catatan-form">Formulir terbuka di tab baru. Login dengan akun Google untuk mengunggah file.</p>
+</section>
+
+    <!-- ===== KEAHLIAN: kelompok dengan label kecil ===== -->
+    <section id="keahlian" class="halaman">
+      <h2>Keahlian</h2>
+      <p class="pengantar">Hal-hal yang sering saya pakai.</p>
+
+      <div class="grid-keahlian">
+        <div class="kelompok">
+          <h3>Web</h3>
+          <ul class="label">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Desain responsif</li>
+          </ul>
+        </div>
+        <div class="kelompok">
+          <h3>Pemrograman</h3>
+          <ul class="label">
+            <li>Python</li><li>Analisis algoritma</li><li>Struktur data</li>
+          </ul>
+        </div>
+        <div class="kelompok">
+          <h3>Alat</h3>
+          <ul class="label">
+            <li>Git dan GitHub</li><li>VS Code</li><li>Figma</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== KONTAK: tautan besar di tengah ===== -->
+    <section id="kontak" class="halaman kontak">
+      <h2>Ayo ngobrol</h2>
+      <p class="lead">Ada proyek atau pertanyaan? Kirim pesan, saya biasanya membalas dalam dua hari.</p>
+
+      <ul class="daftar-kontak">
+        <li><a href="mailto:dimasherdiansyahromadonii@gmail.com">dimasherdiansyahromadonii@gmail.com</a></li>
+        <li><a href="https://github.com/dimasherdiansyahromadonii-netizen">github.com/dimasherdiansyahromadonii-netizen</a></li>
+        <li><a href="https://linkedin.com/in/dimas-herdiansyah-romadoni-2735703b8">linkedin.com/in/dimas-herdiansyah-romadoni-2735703b8</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Dimas Herdiansyah Romadoni</p>
+  </footer>
+</body>
+</html>
